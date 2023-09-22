@@ -1,0 +1,44 @@
+.header {
+    background-color: #1F2937;
+}
+
+.menu-bar {
+    display:flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.header-link {
+  
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header-logo {
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    padding-bottom: 50px;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6;
+}

@@ -1,89 +1,111 @@
-.header {
-    background-color: #1F2937;
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/* Menu-bar */
 
 .menu-bar {
-    display:flex;
-    padding: 0px 30px;
-    justify-content: space-between;
-}
-
-.header-link {
-  
     display: flex;
-    gap: 50px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
     align-items: center;
 }
 
-.secondary-text {
-    font-size: 18px;
-    color: #f9f9f9;
-}
-
-#header-logo {
-    font-size: 24px;
-    color:#f9faf8;
-}
-
-.header-container {
+.header-link {
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+    font-family: 'Roboto', arial;
 }
 
+.header-link a {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero-cta p {
+    opacity: 0.7;
+}
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
-}
-
-#information-header {
-    font-size: 36px;
     font-weight: bold;
-    color: #1F2937;
-    justify-self: center;
+    margin: 0;
+    color: #F9FAF8;
 }
 
 button {
-    background-color: #3882F6;
-    color:#e5e7eb;
-    border-radius: 5px;
+    display: block;
+    text-align: center;
+    border: none;
 }
 
-.four-elements {
-    margin: 50px;
+.content {
+    align-items: center;
+}
+
+.content-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
 }
 
-.illustration {
-    border: 8px solid royalblue;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+.content-info .illustration {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    margin: 5px 20px 9px 20px;
+    border-radius: 15px;
 }
 
-.quote {
-    background-color: #e5e7eb;
+.quote  {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote p {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
-    padding: 100px;
 }
 
-#signature {
-    font-weight: bold;
-    float: right;
-    padding-bottom: 100px;
+.quote b {
+    text-align: right;
+    padding-bottom: 20px;
 }
 
-.action {
-    padding: 120px;
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+    align-items: center;
 }
 
-#content {
-    background-color: #3882F6;
-    border-radius: 10px;
-    padding: 50px;
+.signs-text {
+    text-align: left;
 }
